@@ -67,6 +67,13 @@ body {
   cursor: pointer;
 }
 
+.product-thumbnailss img {
+  width: 20%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
 .product-thumbnails img:hover {
   border-color: #374b90;
 }
@@ -106,7 +113,14 @@ body {
     max-width: 300px;
     border-radius: 5px;
     align-items: center;
+  }
 
+  .product-thumbnailss img {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-bottom: 1%;
   }
 }
 
@@ -129,6 +143,6 @@ body {
   .product-image img {
     max-width: 90%;
     border-radius: 5px;
-    
   }
+
 }
